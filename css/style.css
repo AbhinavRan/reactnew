@@ -68,8 +68,8 @@ hr {
 /* Navigation */
 #menu {
 	padding: 05px;
-	transition: all 0.8s;
-	width: 90%;
+	transition: all 1s;
+	width: 100%;
 }
 #menu.navbar-default {
 	background-color:white;
@@ -94,7 +94,7 @@ hr {
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
-	opacity: 0.5;
+	
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -106,10 +106,10 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	content: "";
 	transition: width 0.2s;
-	opacity: 0.5;
+	
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
-	width: 90%;
+	width: 100%;
 	opacity: 0.5;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -121,7 +121,7 @@ hr {
 	display: block !important;
 	position: absolute !important;
 	left: 0 !important;
-	bottom: -1px !important;
+	bottom: 1px !important;
 	width: 100% !important;
 	height: 2px !important;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
@@ -203,7 +203,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro 
 {
 	display: table;
-	width: 90%;
+	width: 100%;
 	padding:0;
 	color:#192735 ;
 	background-color: white;
