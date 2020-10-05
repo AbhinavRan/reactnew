@@ -67,11 +67,12 @@ hr {
 
 /* Navigation */
 #menu {
-	padding: 15px;
-	transition: all 0.8s;
+	padding:5px;
+	transition: all 1s;
+	width: 100%;
 }
 #menu.navbar-default {
-	background-color:floralwhite;
+	background-color:white;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 	opacity:0.5;
@@ -93,7 +94,7 @@ hr {
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
-	opacity: 0.5;
+	
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -105,14 +106,14 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	content: "";
 	transition: width 0.2s;
-	opacity: 0.5;
+	
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 	opacity: 0.5;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: floralwhite;
+	background-color: white;
 	opacity: 0.5;
 
 }
@@ -120,7 +121,7 @@ hr {
 	display: block !important;
 	position: absolute !important;
 	left: 0 !important;
-	bottom: -1px !important;
+	bottom: 1px !important;
 	width: 100% !important;
 	height: 2px !important;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
@@ -135,7 +136,7 @@ hr {
 	opacity: 0.5;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: floralwhite;
+	background-color: white;
 	border-color: #608dfd;
 	opacity: 0.5;
 
@@ -203,9 +204,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 {
 	display: table;
 	width: 100%;
-	padding:0;
+	padding: 100px 0 60px 0;
 	color:#192735 ;
-	background-color: floralwhite;
+	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -241,7 +242,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom:20px;
 }
 img {
-  width: 500px;
+  
+  width: 100%;
+  height: auto;
 }
 header .intro-text {
 	padding-top: 50px;

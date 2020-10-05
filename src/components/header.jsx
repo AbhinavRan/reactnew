@@ -7,8 +7,9 @@ export class Header extends Component {
         <div className="intro">
           <div className="overlay">
             <div className="container">
+            
               <div className="row">
-                <div className="col-sm-6 col-md-offset-3 intro-text">
+                <div className="col-md-8 col-md-offset-2 intro-text">
                 <img src="img/Weye confidential.png" />
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
@@ -23,10 +24,11 @@ export class Header extends Component {
 
                 </div>
                 </div>
+                </div>
                 
               
 
-            </div>
+           
           </div>
 
         </div>

@@ -88,7 +88,7 @@
     "Features": [{
             "icon": "fa fa-comments-o",
             "title": "Trustful Communication",
-            "text": "We at Weye, provide you with best communication service to help client with 24x7 customer-support, least time response systems and socially available."
+            "text": "We at Weye, provide you with best communication service to help client with 24x7 customer-support."
         },
         {
             "icon": "fa fa-lightbulb",
@@ -98,7 +98,7 @@
         {
             "icon": "fa fa-users",
             "title": "Full-stack teams ",
-            "text": "We focus on front-end and back-end development together with UX/UI and graphic designers with great skills and industry expertise to speed up the product."
+            "text": "We focus on front,back-end development,with UX/UI and graphic designers having great skills and industry expertise to speed up the product."
         },
         {
             "icon": "fa fa-code",

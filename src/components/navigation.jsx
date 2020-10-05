@@ -4,7 +4,9 @@ export class Navigation extends Component {
   render() {
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      
         <div className="container">
+        
           <div className="navbar-header">
             <button
               type="button"
@@ -71,6 +73,7 @@ export class Navigation extends Component {
             </ul>
           </div>
         </div>
+        
       </nav>
     );
   }
