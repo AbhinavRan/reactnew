@@ -67,7 +67,7 @@ hr {
 
 /* Navigation */
 #menu {
-	padding: 05px;
+	padding:5px;
 	transition: all 1s;
 	width: 100%;
 }
@@ -204,7 +204,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 {
 	display: table;
 	width: 100%;
-	padding:0;
+	padding: 100px 0 60px 0;
 	color:#192735 ;
 	background-color: white;
 	-webkit-background-size: cover;
