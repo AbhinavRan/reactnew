@@ -64,15 +64,17 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+
 /* Navigation */
 #menu {
 	padding: 15px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color:floralwhite;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+	opacity:0.5;
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
@@ -80,6 +82,7 @@ hr {
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
+	opacity: 0.5;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -90,6 +93,7 @@ hr {
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
+	opacity: 0.5;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -101,12 +105,16 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	content: "";
 	transition: width 0.2s;
+	opacity: 0.5;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
+	opacity: 0.5;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: transparent;
+	background-color: floralwhite;
+	opacity: 0.5;
+
 }
 .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
 	display: block !important;
@@ -118,17 +126,26 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
+	opacity: 0.5;
 }
+
+
 .navbar-toggle {
-	border-radius: 0;
+	border-radius: 50;
+	opacity: 0.5;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #fff;
+	background-color: floralwhite;
 	border-color: #608dfd;
+	opacity: 0.5;
+
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: white;
+	opacity: 0.5;
 }
+
+
 .section-title {
 	margin-bottom: 70px;
 }
@@ -182,31 +199,37 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* Header Section */
-.intro {
+.intro 
+{
 	display: table;
 	width: 100%;
-	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
+	padding:0;
+	color:#192735 ;
+	background-color: floralwhite;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+
 }
+
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: linear-gradient(to top,#192735  50%, #192735 100%);;
+	padding-top: 50px;
+    
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-size: 82px;
+	color: grey;
+	font-size: 60px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
 .intro h1 span {
-	font-weight: 800;
+	font-weight: 600;
 	color: #5ca9fb;
 }
 .intro p {
@@ -215,13 +238,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0 auto;
-	margin-bottom: 60px;
+	margin-bottom:20px;
+}
+img {
+  width: 500px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom:50px;
 	text-align: center;
 }
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -289,7 +316,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #6372ff 0%, #192735 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -418,23 +445,23 @@ header .intro-text {
 	padding: 100px 0;
 }
 #team h4 {
-	margin: 5px 0;
+	margin: 20px 0;
 }
 #team .team-img {
-	width: 240px;
+	width: 1000px;
 }
 #team .thumbnail {
 	background: transparent;
 	border: 0;
 }
 #team .thumbnail .caption {
-	padding: 10px 0 0 0;
+	padding: 05px 0 0 0;
 	color: #888;
 }
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #6372ff 0%, #192735 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -556,6 +583,12 @@ color: #777;
 #contact .social i.fa:hover {
 	color: #608dfd;
 	background: #fff;
+}
+
+/*Career Section*/
+#career .career-text
+{
+	color: white;
 }
 /* Footer Section*/
 #footer {

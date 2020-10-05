@@ -6,10 +6,9 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
+            <h2>Works</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              These are some our selected works and porthfolios provided to clients.
             </p>
           </div>
           <div className="row">
@@ -19,15 +18,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/01-large.jpg"
+                      href="img/portfolio/pf4.png"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Personal Site</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/portfolio/pf4.png"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -40,15 +39,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/02-large.jpg"
+                      href="img/portfolio/pf1.gif"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Landing Page for Tech Enthusiasts</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/portfolio/pf1.gif"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -61,15 +60,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/03-large.jpg"
+                      href="img/portfolio/pf2.gif"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Resume Porthfolio</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/portfolio/pf2.gif"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -87,7 +86,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/04-small.jpg"
@@ -108,7 +107,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/05-small.jpg"
@@ -129,7 +128,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/06-small.jpg"
@@ -150,7 +149,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/07-small.jpg"
@@ -171,7 +170,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/08-small.jpg"
@@ -192,7 +191,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>*Coming Soon</h4>
                       </div>
                       <img
                         src="img/portfolio/09-small.jpg"

@@ -8,11 +8,8 @@ export class Header extends Component {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
-                  </h1>
+                <div className="col-sm-6 col-md-offset-3 intro-text">
+                <img src="img/Weye confidential.png" />
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
@@ -22,11 +19,18 @@ export class Header extends Component {
                   >
                     Learn More
                   </a>{" "}
+
+
                 </div>
-              </div>
+                </div>
+                
+              
+
             </div>
           </div>
+
         </div>
+
       </header>
     );
   }

@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+              Weye
             </a>{" "}
           </div>
 
@@ -45,7 +45,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Gallery
+                  Work
                 </a>
               </li>
               <li>
@@ -61,6 +61,11 @@ export class Navigation extends Component {
               <li>
                 <a href="#contact" className="page-scroll">
                   Contact
+                </a>
+              </li>
+              <li>
+                <a href="img/career/career.html" className="page-scroll">
+                  Career
                 </a>
               </li>
             </ul>
