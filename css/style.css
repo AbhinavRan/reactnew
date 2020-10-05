@@ -67,11 +67,12 @@ hr {
 
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 05px;
 	transition: all 0.8s;
+	width: 90%;
 }
 #menu.navbar-default {
-	background-color:floralwhite;
+	background-color:white;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 	opacity:0.5;
@@ -108,11 +109,11 @@ hr {
 	opacity: 0.5;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
-	width: 100%;
+	width: 90%;
 	opacity: 0.5;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: floralwhite;
+	background-color: white;
 	opacity: 0.5;
 
 }
@@ -135,7 +136,7 @@ hr {
 	opacity: 0.5;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: floralwhite;
+	background-color: white;
 	border-color: #608dfd;
 	opacity: 0.5;
 
@@ -202,10 +203,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro 
 {
 	display: table;
-	width: 100%;
+	width: 90%;
 	padding:0;
 	color:#192735 ;
-	background-color: floralwhite;
+	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
