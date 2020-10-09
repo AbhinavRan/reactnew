@@ -205,7 +205,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 100px 0 60px 0;
-	color:#192735 ;
+	background: linear-gradient(to right, #6372ff 0%, #192735 100%);
 	background-color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -215,7 +215,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro .overlay {
-	background: linear-gradient(to top,#192735  50%, #192735 100%);;
+	background: linear-gradient(to right,#6372ff  0%, #192735 100%);;
 	padding-top: 50px;
     
 }
@@ -231,7 +231,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .intro h1 span {
 	font-weight: 600;
-	color: #5ca9fb;
+	background: linear-gradient(to right, #6372ff 0%, #192735 100%);
 }
 .intro p {
 	color: #fff;
